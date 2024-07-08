@@ -147,7 +147,6 @@ body{
 .holyday-section-container{
     width: 1320px;
     height: 986.07px;
-    border: 2px solid red;
     margin-top: 100px;
     margin: 0 auto;
     position: relative;
@@ -201,6 +200,96 @@ font-weight: 500;
     justify-content: space-between;
     align-items: center;
 }
-.girl-container{
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.portfolio-text-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.portfolio-text-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    }
+.item{
+    width: 424px;
+    height: 450px;
+}
+.portfolio-item{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+margin-left: 10px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+/* footer style */
+.footer-container{
+    width: 1320px;
+    height: 600px;
+    background-color: rgb(7, 2, 17);
+    margin: 0 auto;
+    padding: 65px 100px 100px 100px;
     
+
+}
+.contract{
+    display: flex;
+    color: #ffffff;
+}
+.footer-first-section{
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+.social-icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-end-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    height: 30px;
+    justify-content: space-between;
+}
+.hr1{
+    margin-bottom: 50px;
+    width: 90%;
+    /* margin: 0 auto; */
 }
